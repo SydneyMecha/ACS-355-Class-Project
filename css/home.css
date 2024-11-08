@@ -1,0 +1,176 @@
+/* color: #edaa2e */
+
+body {
+    margin: 0;
+    color: black;
+    font-family: "Saira", 'Times New Roman', sans-serif;
+    padding: 20px 30px;
+    width: auto;
+}
+
+/* HEADING */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 120px;
+}
+
+#logo img {
+    width: 50px;
+}
+
+#logo span {
+    text-align: center;
+    width: inherit;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: right;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 36px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    background-color: transparent;
+}
+
+#register {
+    background-color: #edaa2e;
+    color: black;
+}
+
+/* FIRST SECTION */
+
+.first {
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#voter {
+    width: 70vh;
+    height: 50vh;
+    background-image: url("/images/e_kura.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.motto {
+    font-size: 5vh;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* KEY FEATURES SECTION */
+
+.features {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.heading {
+    font-size: 24px;
+    text-align: center;
+    height: 30vh;
+}
+
+.a {
+    display: flex;
+    gap: 50px;
+}
+
+.feature {
+    width: 250px;
+}
+
+.feature_icon .fa-solid {
+    background-color: white;
+    font-size: 50px;
+}
+
+.side_bar {
+    width: 15px;
+    height: 50px;
+    background-color: #edaa2e;
+}
+
+.big {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0;
+}
+
+/* HOW IT WORKS SECTION */
+
+.workings_section {
+    display: flex;
+        justify-content: center;
+        height: 80vh;
+        background-color: #dedede;
+}
+
+.how_it_works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.steps_icon {
+    font-size: 50px;
+}
+
+.steps {
+    display: flex;
+    background-color: red;
+    width: 1000px;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+}
+

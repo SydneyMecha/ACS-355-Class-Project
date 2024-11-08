@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Kura</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04e085bf02.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+        <nav>
+            <div class="email_notification">
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div   class="profile">
+                <img src="/images/profile.png" alt="" width="30px">
+            </div>
+        </nav>
+        <div id="side_nav">
+            <div id="logo">
+                <div class="logo"><img src="/images/logo.png" alt="" width="50px"></div>
+                <div class="name hidden">e-kura</div>
+            </div>
+            <div>
+                <ul>
+                    <a href="dashboard.html">
+                        <li><i class="fa-solid fa-house"></i>
+                            <div class="hidden">Dashboard Overview</div></li>
+                    </a>
+                    <a href="election_management.html">
+                        <li><i class="fa-solid fa-check-to-slot"></i>
+                            <div class="hidden">Election Management</div></li>
+                    </a>
+                    <a href="voters_management.html">
+                        <li><i class="fa-solid fa-people-group"></i>
+                            <div class="hidden">Voters Management</div></li>
+                    </a>
+                    <a href="election_monitoring.html">
+                        <li><i class="fa-solid fa-square-poll-vertical"></i>
+                            <div class="hidden">Election Monitoring</div></li>
+                    </a>
+                    <a href="results_management.html">
+                        <li><i class="fa-solid fa-circle-check"></i>
+                            <div class="hidden">Results Management</div></li>
+                    </a>
+                    <a href="support_resources.html">
+                        <li><i class="fa-solid fa-headset"></i>
+                            <div class="hidden">Support & Resources</div></li>
+                    </a>
+                    <a href="account_settings.html">
+                        <li><i class="fa-solid fa-user-gear"></i>
+                            <div class="hidden">Account Settings</div></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="dashboard">
+                <h1>Dashboard</h1>
+            </div>
+            <div id="overview">
+                <div class="user component">
+                    <div class="passport"><img src="/images/profile.png" width="100px" alt=""></div>
+                    <div class="user_info"></div>
+                </div>
+                <div class="first_container">
+                    <div class="second_container">
+                        <div class="election_summary data">
+                            <h3>Election Summary</h3>
+                            <div class="items">
+                                <div>
+                                    <h5>Active Elections:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h5>Upcoming Elections:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h5>Completed Elections:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="voter_stats component data">
+                            <h3>Voter Summary</h3>
+                            <div class="items">
+                                <div>
+                                    <h5>Overall Participation Rate:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h5>Current Election Turnout:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                                <div>
+                                    <h5>Elections Trend Overtime:</h5>
+                                    <span>Lorem Ispum</span>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="recent_activities component data">
+                            <h3>Recent Actvivities</h3>
+                        </div>
+                    </div>
+                    <div class="quick_actions">
+                        <div>
+                            Manage Elections
+                        </div>
+                        <div>
+                            Manage Voters
+                        </div>
+                        <div>
+                            View Reports
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
