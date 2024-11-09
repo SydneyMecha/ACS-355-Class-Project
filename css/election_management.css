@@ -51,7 +51,7 @@ input {
     border-radius: 15px 0 0 15px;
 }
 
-button {
+.search button {
     background-color: #f0f0f0;
     border: none;
     padding: 10px;
@@ -60,11 +60,11 @@ button {
     color: #edaa2e;
 }
 
-button:hover {
+.search button:hover {
     background-color: #e0e0e0;
 }
 
-.profile img{
+.profile img {
     width: 50px;
 }
 
@@ -127,3 +127,160 @@ a {
 li:hover {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Main */
+
+main {
+    /* height: 90vh; */
+    width: 95%;
+    position: absolute;
+    right: 0;
+}
+
+.heading h1 {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.election_management {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #dedede;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.election_view {
+    width: 800px;
+    height: 520px;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 60px;
+    border-color: black;
+}
+
+.candidates,
+.elections,
+.issues {
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.elections {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+}
+
+.elections table {
+    width: 100%;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.body_button {
+    border-radius: 20px;
+    background-color: #edaa2e;
+    border: none;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.actions button {
+    width: 200px;
+    height: 20px;
+}
+
+.small_card {
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top_candidate {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.candidates {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-height: 190px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.candidates table {
+    width: 100%;
+    margin: 10px;
+}
+
+.candidates table td:first-child {
+    width: 20%;
+}
+
+.candidates table td:nth-child(2) {
+    width: 50%;
+    text-align: left;
+}
+
+.candidates table td:nth-child(3) {
+    width: 30%;
+}
+
+.candidates table td {
+    align-items: top;
+    text-align: center;
+}
+
+
+.issue_traking {
+    max-height: 200px;
+}
+
+.issues{
+    width: 95%;
+}
+
+.issues table{
+    width: 100%;
+}
+.issues table td:first-child {
+    width: 70%;
+}
+
+.issues table td:nth-child(2) {
+    text-align: center;
+}
+
